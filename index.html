@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Meteo</title>
+<script defer src="main.js"></script></head>
+<body>
+    <div id="app">
+        <form id="search-form">
+            <input type="text" id="city-input" placeholder="Cerca una città..."/>
+            <button type="submit">Cerca</button>
+        </form>
+
+        <button id="unit-toggle">Passa a °F</button>
+
+        <div id="loading" class="hidden">Caricamento...</div>
+
+        <div id="weather-display"></div>
+    </div>
+</body>
+</html>
